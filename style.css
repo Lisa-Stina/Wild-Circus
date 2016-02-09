@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  background-size: 500px;
+  background-position: top;
+  color: white;
+  font-family: "comic sans ms",serif;
+  background-color: black;
+}
+
+header {
+  text-align: center;
+  background: url("image/rideaux.jpg");
+  background-size: 500px;
+  background-position: top;
+  color: white;
+  font-family: helvetica,serif;
+}
+
+h1 {
+  font-size: 150px;
+  font-family: single,helvetica,serif;
+}
+    
+h2 {
+  font-size: 40px;
+  font-family: helvetica,serif;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  font-family: helvetica,serif;
+}
+    
+img {
+  border-radius: 360px;
+  margin: 40px 0px 0px 0px;
+  border: 8px solid black;
+}
+    
+img.born {
+  border: none;
+}
+
+img.titres {
+  border: none;
+}
+    
+img.link {
+  border: none;
+  border-radius: 0px;
+}
+    
+p {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  background-color: black;
+}
+
+.programme {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+    
+input{
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"]{
+  background: red;
+  color: white;
+}
+  
+ul {
+  padding: 20px;
+  background: black;
+  font-size: 22px;
+  font-size: helvetica,serif;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+.lions {
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+article {
+  display: block;
+  background-color: black;
+  font-size: 25px;
+  padding: 18px;
+}
+
+article img{
+  float: center;
+  width: 20%;
+}
+
+.clearfix{
+  overflow: auto;
+}
+
+footer {
+   text-align: center;
+   background-image: url("image/light.jpg");
+   background-size: 500px;
+   background-position: top;
+   color: white;
+   font-family: helvetica,serif;
+   font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+}
